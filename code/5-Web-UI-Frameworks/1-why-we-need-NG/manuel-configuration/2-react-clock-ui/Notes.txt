@@ -1,0 +1,7 @@
+
+
+WEB UI
+Data + Style + Interactivity
+HTML + CSS + Javascript with browser-APIs
+
+Component means any UI-fragment
