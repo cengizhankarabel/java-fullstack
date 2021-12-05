@@ -1,0 +1,29 @@
+<div class="container">
+  <hr />
+  <h1>{{title}}</h1>
+  <hr />
+
+  <!-- <div class="list-group-item"  *ngIf="product[0].isAvailable">
+    <div>{{product[0].name}}</div>
+    <div>{{product[0].price}}</div>
+    <div>{{product[0].description}}</div>
+    <button  class="btn btn-sml btn-dark">buy</button>
+  </div>   
+  <div class="list-group-item"   *ngIf="product[1].isAvailable">
+    <div>{{product[1].name}}</div>
+    <div>{{product[1].price}}</div>
+    <div>{{product[1].description}}</div>
+    <button  class="btn btn-sml btn-dark">buy</button>
+  </div>    -->
+
+  <div *ngFor="let p of products | slice:0">
+      <div class="list-group-item" *ngIf="p.isAvailable">
+          <div>{{p.name}}</div>
+          <div>{{p.price|currency:p.currencyCode}}</div>
+          <div>{{p.description}}</div>
+          <button class="btn btn-sml btn-dark">buy</button>
+      </div>
+  </div>
+
+
+</div>
