@@ -1,0 +1,22 @@
+<div class="container">
+
+  <app-navbar [title]="title"></app-navbar>
+
+  <hr />
+  <app-cart-badge></app-cart-badge>
+  <hr />
+
+  <ul class="nav">
+    <li class="nav-item">
+      <a (click)="toggleCart($event)" class="nav-link" href>
+        {{isCartOpen?'products':'cart'}}
+      </a>
+    </li>
+  </ul>
+
+  <hr />
+
+  <app-cart-view *ngIf="isCartOpen"></app-cart-view>
+  <app-product-list *ngIf="!isCartOpen"></app-product-list>
+
+</div>

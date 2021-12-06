@@ -1,0 +1,22 @@
+<table class="table">
+    <thead>
+        <tr>
+            <td>Seq</td>
+            <td>product-id</td>
+            <td>Name</td>
+            <td>Price</td>
+            <td>Qty</td>
+            <td>Total</td>
+        </tr>
+    </thead>
+    <tbody>
+        <tr *ngFor="let kv of cart | keyvalue;let idx=index">
+            <td>{{idx+1}}</td>
+            <td>{{kv.key}}</td>
+            <td>{{kv.value.item.name}}</td>
+            <td>{{kv.value.item.price|currency:'INR'}}</td>
+            <td>{{kv.value.qty}}</td>
+            <td>{{kv.value.item.price*kv.value.qty | currency:'INR'}}</td>
+        </tr>
+    </tbody>
+</table>

@@ -1,0 +1,5 @@
+<div class="card card-body">
+    <div *ngFor="let product of products | slice:0:10">
+        <app-product [value]="product"></app-product>
+    </div>
+</div>

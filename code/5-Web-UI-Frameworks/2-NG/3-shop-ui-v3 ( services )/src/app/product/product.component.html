@@ -1,0 +1,35 @@
+<div class="list-group-item" *ngIf="product.isAvailable">
+    <div class="row">
+        <div class="col-4">
+            <img class="img-fluid" alt="" [src]="product.imagePath" />
+        </div>
+        <div class="col-8">
+
+            <!-- <pre>{{product|json}}</pre> -->
+
+            <div>{{product.name|uppercase}} - {{product.makeDate|date:'MMM-yyyy'}}</div>
+            <div>{{product.price | discount:product.discountPrice | currency:'INR':'symbol'}}</div>
+            <button (click)="handleBuy($event)" class="btn btn-dark">buy</button>
+
+            <ul class="nav nav-tabs">
+                <li class="nav-item">
+                    <a class="nav-link" [class.active]="currentTab===1" (click)="handleTabChange($event,1)" href>
+                        Description
+                    </a>
+                </li>
+                <li class="nav-item">
+                    <a [ngClass]="{'nav-link':true,active:currentTab===2}" (click)="handleTabChange($event,2)"
+                        href>Specification</a>
+                </li>
+                <li class="nav-item">
+                    <a [ngClass]="{'nav-link':true,active:currentTab===3}" (click)="handleTabChange($event,3)"
+                        href>Reviews</a>
+                </li>
+            </ul>
+            <div *ngIf="currentTab===1">{{product.description | slice:0:500}}</div>
+            <div *ngIf="currentTab===2">Not Yet</div>
+            <div *ngIf="currentTab===3">None Yet</div>
+
+        </div>
+    </div>
+</div>
