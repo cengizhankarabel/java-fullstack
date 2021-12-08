@@ -8,9 +8,8 @@ import lombok.NoArgsConstructor;
 @NoArgsConstructor
 @Data
 public class Account {
+
     private String number;
     private double balance;
-
-
 
 }

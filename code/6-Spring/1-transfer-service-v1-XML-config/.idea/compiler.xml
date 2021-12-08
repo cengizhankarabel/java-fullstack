@@ -8,7 +8,6 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="1-transfer-service-v1-XML-config" />
-        <module name="1-transfer-service-v1(XML-config)" />
       </profile>
     </annotationProcessing>
   </component>
