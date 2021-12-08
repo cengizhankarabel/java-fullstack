@@ -5,8 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="5862ea75-d76a-4193-93a6-cefb91fe083e" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../1-transfer-service-v1-XML-config/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../1-transfer-service-v1-XML-config/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../1-transfer-service-v1-XML-config/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../1-transfer-service-v1-XML-config/pom.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -34,17 +34,21 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../1-transfer-service-v1-XML-config" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\cengi\java-fullstack\code\6-Spring\2-transfer-service-v1-Anno-config\target\classes" />
+      <recent name="C:\Users\cengi\java-fullstack\code\6-Spring\2-transfer-service-v1-Anno-config\target" />
       <recent name="C:\Users\cengi\java-fullstack\code\6-Spring\1-transfer-service-v1-XML-config\target\classes" />
     </key>
   </component>
   <component name="RunManager">
     <configuration name="Application" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="ALTERNATIVE_JRE_PATH" value="corretto-11" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
       <option name="MAIN_CLASS_NAME" value="com.example.Application" />
-      <module name="1-transfer-service-v1-XML-config" />
+      <module name="2-transfer-service-v1-Anno-config" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="com.example.*" />
