@@ -5,9 +5,24 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="5862ea75-d76a-4193-93a6-cefb91fe083e" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/transfer-service.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/transfer-service.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../2-transfer-service-v1-Anno-config/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../2-transfer-service-v1-Anno-config/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../1-transfer-service-v1-XML-config/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../1-transfer-service-v1-XML-config/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../1-transfer-service-v1-XML-config/target/classes/transfer-service.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../1-transfer-service-v1-XML-config/target/classes/transfer-service.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../2-transfer-service-v1-Anno-config/.idea/compiler.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../2-transfer-service-v1-Anno-config/.idea/jarRepositories.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../2-transfer-service-v1-Anno-config/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../2-transfer-service-v1-Anno-config/.idea/runConfigurations.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../2-transfer-service-v1-Anno-config/.idea/uiDesigner.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../2-transfer-service-v1-Anno-config/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../2-transfer-service-v1-Anno-config/.idea/workspace.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../2-transfer-service-v1-Anno-config/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../2-transfer-service-v1-Anno-config/src/main/java/com/example/Application.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../2-transfer-service-v1-Anno-config/src/main/java/com/example/model/Account.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../2-transfer-service-v1-Anno-config/src/main/java/com/example/repository/AccountRepository.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../2-transfer-service-v1-Anno-config/src/main/java/com/example/repository/JdbcAccountRepository.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../2-transfer-service-v1-Anno-config/src/main/java/com/example/repository/JpaAccountRepository.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../2-transfer-service-v1-Anno-config/src/main/java/com/example/service/TransferService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../2-transfer-service-v1-Anno-config/src/main/java/com/example/service/TransferServiceImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../2-transfer-service-v1-Anno-config/target/classes/transfer-service.xml" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -26,7 +41,9 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../../.." />
   </component>
   <component name="ProjectId" id="21zRZIYHK6oiVz3oWtM0yajeFQB" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="1" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -39,13 +56,17 @@
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\cengi\java-fullstack\code\6-Spring\2-transfer-service-v1-Anno-config\target\classes" />
+      <recent name="C:\Users\cengi\java-fullstack\code\6-Spring\2-transfer-service-v1-Anno-config\target" />
       <recent name="C:\Users\cengi\java-fullstack\code\6-Spring\1-transfer-service-v1-XML-config\target\classes" />
     </key>
   </component>
   <component name="RunManager">
     <configuration name="Application" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="ALTERNATIVE_JRE_PATH" value="corretto-11" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
       <option name="MAIN_CLASS_NAME" value="com.example.Application" />
-      <module name="1-transfer-service-v1-XML-config" />
+      <module name="3-transfer-service-v3-Java-config" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="com.example.*" />
