@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile default="true" name="Default" enabled="true" />
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="1-transfer-service-v1-XML-config" />
+        <module name="3-transfer-service-v3-Java-config" />
+        <module name="4-transfer-service-v4-spring-with-JPA" />
+        <module name="2-transfer-service-v1-Anno-config" />
+      </profile>
+    </annotationProcessing>
+  </component>
+</project>

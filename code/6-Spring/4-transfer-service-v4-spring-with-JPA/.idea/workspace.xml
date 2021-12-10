@@ -5,7 +5,26 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="5862ea75-d76a-4193-93a6-cefb91fe083e" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/jarRepositories.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/runConfigurations.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/schema.sql" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/Application.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/config/JpaConfiguration.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/config/TransferServiceConfiguration.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/entity/Account.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/repository/AccountRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/repository/JdbcAccountRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/repository/JpaAccountRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/service/TransferService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/service/TransferServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../3-transfer-service-v3-Java-config/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../3-transfer-service-v3-Java-config/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../3-transfer-service-v3-Java-config/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../3-transfer-service-v3-Java-config/pom.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -35,10 +54,11 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../4-transfer-service-v4-spring-with-JPA" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\cengi\java-fullstack\code\6-Spring\4-transfer-service-v4-spring-with-JPA" />
       <recent name="C:\Users\cengi\java-fullstack\code\6-Spring\2-transfer-service-v1-Anno-config\target\classes" />
       <recent name="C:\Users\cengi\java-fullstack\code\6-Spring\2-transfer-service-v1-Anno-config\target" />
       <recent name="C:\Users\cengi\java-fullstack\code\6-Spring\1-transfer-service-v1-XML-config\target\classes" />
@@ -49,7 +69,7 @@
       <option name="ALTERNATIVE_JRE_PATH" value="corretto-11" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
       <option name="MAIN_CLASS_NAME" value="com.example.Application" />
-      <module name="3-transfer-service-v3-Java-config" />
+      <module name="4-transfer-service-v4-spring-with-JPA" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="com.example.*" />
